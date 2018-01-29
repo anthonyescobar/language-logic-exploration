@@ -65,3 +65,10 @@ Using platforms that are more universal and always having a backup plan/supplier
   - business
 
 ## 4.9
+1. SHOULD: orient the game to run in portrait mode
+2. MUST: make a menu button to begin new game + other options (less intrusive)
+3. COULD: use a better image of a skeleton
+4. Won't: upload an image to become the hangman
+5. COULD: Skill options (bob books <-> 5th grade spelling bee <-> college level)
+6. MUST: center orient the game
+7. COULD: options for word topics
