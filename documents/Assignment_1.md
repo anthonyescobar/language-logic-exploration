@@ -31,5 +31,37 @@ Using platforms that are more universal and always having a backup plan/supplier
 4. Prioritize
 5. Verifiable
 ## 4.3
+* a. Allow users to monitor uploads/downloads while away from the office.
+  - user
+* b. Let the user specify website log-in parameters such as an Internet address, a port, a username, and a password.
+  - user
+* c. Let the user specify upload/download parameters such a number of retries if there's a problem.
+  - user
+* d. Let the user select an Internet location, a local file, and a time to perform the upload/download.
+  - user
+* e. Let the user schedule uploads/downloads at any time.
+  - user
+* f. Allow uploads/downloads to run at any time.
+  - functional
+* g. Make uploads/downloads transfer at least 8 Mbps.
+  - nonfuntional
+* h. Run uploads/downloads sequentially. Two cannot run at the same time.
+  - functional
+* i. If an upload/download is scheduled for a time whan another is in progress, it waits until the other one finishes.
+  - nonfunctional
+* j. Perform schedule uploads/downloads.
+  - functional
+* k. Keep a log of all attempted uploads/downloads and whether the succeeded.
+  - user
+* l. Let the user empty the log.
+  - user
+* m. Display reports of upoad/download attempts.
+  - user
+* n. Let the user view the log reports on a remote device such as a phone.
+  - user
+* o. Send an e-mail to an administrator if an upload/download fails more than its maximum retry number of times.
+  - business
+* p. Send a text message to an administrator if an upload/download fails more than it's maximum retury umber of times.
+  - business
 
 ## 4.9
