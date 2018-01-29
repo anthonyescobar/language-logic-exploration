@@ -19,12 +19,17 @@ G->D->E->M->Q
 
 ## 3.4
 ![gnatt chart](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw1_3-4.png)
-## 3.6
-
+## 3.6 How can you handle completely unpredictable problems?
+Using platforms that are more universal and always having a backup plan/supplier.
 ## 3.8: What are the two biggest mistakes you can make while tracking tasks?
-
+1. Adding too many people to a project
+2. Igoring issues
 ## 4.1: List five characteristics of good requirements.
-
+1. Clear
+2. Unambiguous
+3. Consistent
+4. Prioritize
+5. Verifiable
 ## 4.3
 
 ## 4.9
