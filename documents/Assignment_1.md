@@ -4,7 +4,7 @@
 
 ## 1.2: Give a one sentence description of each of the tasks you listed in Exercise 1.
 
-## 2.4:
+## 2.4: 
 
 ## 2.5: What does JBGE stand for and what does it mean?
 
