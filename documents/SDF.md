@@ -4,22 +4,22 @@ CMSI 402 - Spring 2018
 Loyola Marymount University
 
 # Table of Contents
-[1.0 Project Status Sheets](#10-Project-Status-Sheets)  
-[2.0 Preliminary Project Proposal](#20-Preliminary-Project-Proposal)  
-[3.0 Project Proposal](#30-Project-Proposal)  
-  [3.1 Verbal Description](#31-Verbal-Description)  
-  [3.2 Justification](#32-Justification)  
-[4.0 Software Development Plan](#40-Software-Development-Plan)  
-[5.0 Requirements Document](#50-Requirements-Document)  
-  [5.1 Introduction](#51-Introduction)  
-  [5.2 Functional Requirements](#52-Functional-Requirements)  
-    [5.2.1 Graphical User Interface](#521-Graphical-User-Interface)  
-    [5.2.2 Command Line Interface](#522-Command-Line-Interface)  
-  [5.3 Performance Requirements](#53-Performance-Requirements)  
-    [5.3.1 Symbolic Breakdown Detection Time](#531-Symbolic-Breakdown-Detection-Time)  
-    [5.3.2 Symbolic Breakdown Return Time](#532-Symbolic-Breakdown-Return-Time)  
-  [5.4 Enviroment Requirements](#54-Enviroment-Requirements)  
-[6.0 Software Design Description](#60-Software-Design-Description)  
+[1.0 Project Status Sheets](#10-project-status-sheets)  
+[2.0 Preliminary Project Proposal](#20-preliminary-project-proposal)  
+[3.0 Project Proposal](#30-project-proposal)  
+  [3.1 Verbal Description](#31-verbal-description)  
+  [3.2 Justification](#32-justification)  
+[4.0 Software Development Plan](#40-software-development-plan)  
+[5.0 Requirements Document](#50-requirements-document)  
+  [5.1 Introduction](#51-introduction)  
+  [5.2 Functional Requirements](#52-functional-requirements)  
+    [5.2.1 Graphical User Interface](#521-graphical-user-interface)  
+    [5.2.2 Command Line Interface](#522-command-line-interface)  
+  [5.3 Performance Requirements](#53-performance-requirements)  
+    [5.3.1 Symbolic Breakdown Detection Time](#531-symbolic-breakdown-detection-time)  
+    [5.3.2 Symbolic Breakdown Return Time](#532-symbolic-breakdown-return-time)  
+  [5.4 Enviroment Requirements](#54-enviroment-requirements)  
+[6.0 Software Design Description](#60-software-design-description)  
 
 
 # 1.0 Project Status Sheets
