@@ -75,8 +75,9 @@ The Command Line Interface (CLI) for the application provides the user with a wa
 
 Category | Requirement
 :---:|:---:
-Language | Python 3 + Natural Language Toolkit
-Web Browser | Chrome (Recommended) / Firefox
+Language | Python 2.7 + Natural Language Toolkit (NLTK)
+Shell (CLI) | Terminal
+Web Browser (GUI) | Chrome (Recommended) / Firefox
   
 There are no hardware requirements for this application
 
