@@ -33,7 +33,7 @@ I have always had a bittersweet relationship with language: despite being in the
 one-paragraph description of the system being designed, and should include a high-level UML diagram of the system components. It should conclude with a verbal outline description of the document, worded something like "The remainder of this document is structured as follows. Section 5.2 contains . . . . Section 5.3 contains . . ." and so on.
 
 ## 5.2 Functional Requirements
-This application shall utilize two different ways for the user to interact with the application.
+This application shall utilize two different ways for the user to interact with the application, a Graphical User Interface which can be accessed by a web browser, or a Command Line Interface which can be accessed with a shell application.
 ### 5.2.1 Graphical User Interface
 The Graphical User Interface (GUI) for the application provides the user with a way to input text for the application to run its computations upon and return the result in a clear and organized manner for the user to view.
   1. The GUI shall provide a `textarea` for the user to input the conditional statements
@@ -47,12 +47,12 @@ The Command Line Interface (CLI) for the application provides the user with a wa
 
 ## 5.3 Performance Requirements
 ### 5.3.2 Symbolic Breakdown Detection Time
-The application shall compute the symbolic breakdown of a given argument so long that there are proper conditional statements to be detected.
+  * The application shall compute the symbolic breakdown of a given argument so long that there are proper conditional statements to be detected.
 ### 5.3.2 Symbolic Breakdown Return Time
-The application shall return the argument into its symbolic breakdown in a reasonable amount of time.
+  * The application shall return the argument into its symbolic breakdown in a reasonable amount of time.
 
 ## 5.4 Enviroment Requirements
-The following are the software requirements for this project:  
+ The following are the software requirements for this project:  
 
 Category | Requirement
 :---:|:---:
