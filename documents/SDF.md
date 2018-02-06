@@ -4,6 +4,23 @@ CMSI 402 - Spring 2018
 Loyola Marymount University
 
 # Table of Contents
+[1.0 Project Status Sheets](#1.0-Project-Status-Sheets)
+[2.0 Preliminary Project Proposal](#2.0-Preliminary-Project-Proposal)
+[3.0 Project Proposal](#3.0-Project-Proposal)
+  [3.1 Verbal Description](#3.1-Verbal-Description)
+  [3.2 Justification](#3.2-Justification)
+[4.0 Software Development Plan](#4.0-Software-Development-Plan)
+[5.0 Requirements Document](#5.0-Requirements-Document)
+  [5.1 Introduction](#5.1-Introduction)
+  [5.2 Functional Requirements](#5.2-Functional-Requirements)
+    [5.2.1 Graphical User Interface](#5.2.1-Graphical-User-Interface)
+    [5.2.2 Command Line Interface](#5.2.2-Command-Line-Interface)
+  [5.3 Performance Requirements](#5.3-Performance-Requirements)
+    [5.3.1 Symbolic Breakdown Detection Time](#5.3.1-Symbolic-Breakdown-Detection-Time)
+    [5.3.2 Symbolic Breakdown Return Time](#5.3.2-Symbolic-Breakdown-Return-Time)
+  [5.4 Enviroment Requirements](#5.4-Enviroment-Requirements)
+[6.0 Software Design Description](#6.0-Software-Design-Description)
+
 
 # 1.0 Project Status Sheets
 
@@ -25,9 +42,11 @@ The application will be written in Python due to its access to large parsing lib
 
 I have always had a bittersweet relationship with language: despite being in the most anti-literature major, I enjoy storytelling (can you believe that I ran a creative writing club in high school). Even though my vocabulary is absolute trash, I find words fascinating and worth studying. Maybe it is because I am algebraically driven, but I’ve always understood writing as a pseudo equation. Certain words tied together can draw out completely different meanings, even if the theme of the statements are the same. Due to this it is safe to assume that words have a defined value and adding certain values together can lead to a specific solution. This becomes most applicable in arguments where one party applies their verbal value against another party’s verbal strength. This is why we have lawyers, we hire individuals who are experts with words to defend our property and rights. Imagine if there existed a computer that could act as a judge: that took in the arguments of both lawyers, computed their argument value dexterity against one another, and gave judgement. Judgement could potentially become more consistent (or we would be putting our whole liberty into the hands of a really smart terminator bot). 
 
-# 4.0 Software Development Plan (Wk 9/11)
+# 4.0 Software Development Plan
+(Wk 9/11)
 
-# 5.0 Requirements Document (Wk 5/13)
+# 5.0 Requirements Document
+(Wk 5/13)
 
 ## 5.1 Introduction
 one-paragraph description of the system being designed, and should include a high-level UML diagram of the system components. It should conclude with a verbal outline description of the document, worded something like "The remainder of this document is structured as follows. Section 5.2 contains . . . . Section 5.3 contains . . ." and so on.
@@ -46,7 +65,7 @@ The Command Line Interface (CLI) for the application provides the user with a wa
   3. The CLI shall provide the propositions on lines below the program call followed by the symbolic logic on a different new line.
 
 ## 5.3 Performance Requirements
-### 5.3.2 Symbolic Breakdown Detection Time
+### 5.3.1 Symbolic Breakdown Detection Time
   * The application shall compute the symbolic breakdown of a given argument so long that there are proper conditional statements to be detected.
 ### 5.3.2 Symbolic Breakdown Return Time
   * The application shall return the argument into its symbolic breakdown in a reasonable amount of time.
@@ -61,4 +80,5 @@ Web Browser | Chrome (Recommended) / Firefox
   
 There are no hardware requirements for this application
 
-# 6.0 Software Design Description (Wk 9/11)
+# 6.0 Software Design Description
+(Wk 9/11)
