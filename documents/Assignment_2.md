@@ -14,10 +14,14 @@ Since ClassyDraw is self-contained and exports its drawings to a file, no databa
 
 ## 5.8: Draw a state machine diagram to let a program read floating point numbers in scientific notation as in +37 or -12.3e+17 (which means -12.3 x 1017). Allow both E and e for the exponent symbol.
 
+![google docs screenshot](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw2_5-8.png)
+
 ## 6.1: Consider the ClassyDraw classes Line, Rectangle, Ellipse, Star, and Text. What properties do these classes all share? What properties do they not share? Are there any properties shared by some classes and not others? Where should the shared and nonshared properties be implemented?
 The classes all share properties that are not specific to the object's shape such as foreground and background color, thickness, line style, etc, along with anchoring its origin (0,0) in the top left corner of the shape. The shapes that are complete will also have a fill property. All the non-shape data can in an umbrella class and shape specific calculations for shapes can be left to the specific classes.
 
 ## 6.2: Draw an inheritance diagram showing the properties you identified for Exercise 1. (Create parent classes as needed, and don't forget the Drawable class at the top.)
+
+![google docs screenshot](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw2_6-2.png)
 
 ## 6.3:
 
