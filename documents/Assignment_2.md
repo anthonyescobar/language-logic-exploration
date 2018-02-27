@@ -27,3 +27,4 @@ The classes all share properties that are not specific to the object's shape suc
 ![google docs screenshot](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw2_6-3.png)
 
 ## Problem 6.6: Suppose your company has many managerial types such as department manager, project manager, and division manager. You also have multiple levels of vice president, some of whom report to other manager types. How could you combine the Salaried, Manager, and VicePresident types you used in Exercise 3? Draw the new inheritance hierarchy.
+![google docs screenshot](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw2_6-6.png)
