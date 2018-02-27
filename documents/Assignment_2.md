@@ -24,15 +24,6 @@ The classes all share properties that are not specific to the object's shape suc
 ![google docs screenshot](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw2_6-2.png)
 
 ## 6.3:
-
-The following list gives the properties of several business-oriented classes.
-
-Customer — Name, Phone, Address, BillingAddress, CustomerID
-Hourly — Name, Phone, Address, EmployeeID, HourlyRate
-Manager — Name, Phone, Address, EmployeeID, Office, Salary, Boss, Employees
-Salaried — Name, Phone, Address, EmployeeID, Office, Salary, Boss
-Supplier — Name, Phone, Address, Products, SupplierID
-VicePresident — Name, Phone, Address, EmployeeID, Office, Salary, Managers
-Assuming a Supplier is someone who supplies products for your business, draw an inheritance diagram showing the relationships among these classes. (Hint: Add extra classes if necessary.)
+![google docs screenshot](https://github.com/anthonyescobar/language-logic-exploration/blob/master/documents/images/hw2_6-3.png)
 
 ## Problem 6.6: Suppose your company has many managerial types such as department manager, project manager, and division manager. You also have multiple levels of vice president, some of whom report to other manager types. How could you combine the Salaried, Manager, and VicePresident types you used in Exercise 3? Draw the new inheritance hierarchy.
