@@ -1,0 +1,33 @@
+TextBooked Project SRS Evaluation
+=================================
+
+This is kind of light-weight, in terms of a requirements document.  I'm
+sorry if this sounds harsh, but there's barely enough in here to see what
+the project is about, let alone what you are building.  For this to be a
+good requirements document, ESPECIALLY for something as complicated as NLP,
+there needs to be a definition of the lexicon you are using, some way of
+describing what NLP engine you'll be writing or integrating, and some way
+of telling the programmer what code to write.  For things like item 2 in
+section 5.2.1, for example, all you say is "denote when a statement may
+be incomplete or syntactially incorrect", but you don't say what that will
+look like to the user; will it be a pop-up message?  Will it appear as
+the text is entered, or does the user have to click something?  In the
+requirement statement 3 in section 5.2.1, what is meant by "cleanly" and
+"properly"?  What is "cleanly" defined as?  What is used to determine
+what is "properly" formatted?
+
+Again, not to sound harsh, but this seems kind of underwhelming....
+
+These are "philosophy of requirements" issues that you can apply in a
+*general* way to nearly all the requirements in the document.  However,
+in the essence of time remaining, I'm assigning full credit to this
+deliverable, for both the initial and the final submissions.
+
+You don't have to do anything further with this document if you don't
+feel the need to do so.
+
+Deliverable D-02: 15% out of 15% = 100% which is an A-plus
+Deliverable D-05:  5% out of  5% = 100% which is an A-plus
+
+Keep up the good work!
+
