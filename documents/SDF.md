@@ -11,6 +11,7 @@ Loyola Marymount University
   * [3.2 Justification](#32-justification)  
 * [4.0 Software Development Plan](#40-software-development-plan)
   * [4.1 Plan Introduction](#41-plan-introduction)
+    * [4.1.1 Project Deliverables](#411-project-deliverables)
   * [4.2 Project Resources](#42-project-resources)
     * [4.2.1 Hardware Resources](#421-hardware-resources)
     * [4.2.2 Software Resources](#422-software-resources)
@@ -54,7 +55,30 @@ I have always had a bittersweet relationship with language: despite being in the
 (Wk 9/11)
 
 ## 4.1 Plan Introduction
+This Software Development Plan provides the details of the planned development for the Language-Logic Conversion Exploration which provides an application to convert a given string into symbolic logic.
+
+The Language Logic Conversion Application is designed to be my own exploration into natural language processing and apply it to a context with clear fundamentals. In order for this project to be rendered complete, documentation must be fully and thuroughly completed. Documentation includes but is not limited to a: project proposal, requirements specification, software development plan, a presentation, and status reports. In addition to documentation, the application must also be completed to a standard specified and agreed to by myself and Prof B.J.
+
+### 4.1.1 Project Deliverables
+**Project Proposal:**
+**Requirements Specification:** 
+**Software Development Plan:**
+
+D# |Deliverable | Due
+:---:|:---:|:---:
+D#01	| Project Proposal Document	| Wk 2
+D#02	| Requirements Specification Document (Initial)	| Wk 5
+D#03	| Software Development Plan Document (Initial) | Wk 9
+D#04	| Software Development Plan Document (Updated) | Wk 11
+D#05	| Requirements Specification Document (re-submit)	| Wk 13
+D#06	| Preliminary Demonstration Presentations	| Wks 13 — 15
+D#07	| FINAL Product Delivery & Project Presentation (Lessons Learned/History sections)	| Wk 16
+D#08	| Oral Status Reports	Done in class as SCRUM | Most Weeks
+D#09	| Written Status Reports or Quad Charts in SDF |	Wk 9/11/13/15
+
 ## 4.2 Project Resources
+
+
 ### 4.2.1 Hardware Resources
 ### 4.2.2 Software Resources
 ## 4.3 Project Organization
