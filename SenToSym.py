@@ -27,5 +27,19 @@ def playingAround():
     entities = nltk.chunk.ne_chunk(tagged)
     print(entities)
 
+    print("\nMultipule Sentences now")
+    sentences = '''Good muffins cost $3.88\nin New York.  Please buy me two of them.\n\nThanks.'''
+    print(sentences)
+
+    print("\nUse sent_tokenize(s)")
+    sentTokens = nltk.sent_tokenize(sentences)
+    print(sentTokens)
+
+    print("Use word_tokenize(s) on each sentance in the array")
+    arrTokens = []
+    for s in sentTokens:
+        arrTokens.append(nltk.word_tokenize(s))
+    print(arrTokens)
+
 if __name__ == "__main__":
     playingAround()
