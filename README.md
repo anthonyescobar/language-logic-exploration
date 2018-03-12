@@ -19,4 +19,5 @@ This project is an exploration into the compatibility between language and compu
 **Documentation**
 
 **Citations**
+
 Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
