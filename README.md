@@ -8,7 +8,10 @@ This project is an exploration into the compatibility between language and compu
 2. NLTK (Natural Language ToolKit)
  * Mac/Unix: `sudo pip install -U nltk`
  * Windows: [http://pypi.python.org/pypi/nltk](http://pypi.python.org/pypi/nltk)
- * [More Info](https://www.nltk.org/install.html)
+3. Numpy
+ * Mac/Unix: `sudo pip install -U numpy`
+ * Windows: [http://sourceforge.net/projects/numpy/files/NumPy/](http://sourceforge.net/projects/numpy/files/NumPy/)
+[More Information on installing NLTK+Numpy](https://www.nltk.org/install.html)
  
 **Steps**
 
