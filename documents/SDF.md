@@ -9,7 +9,15 @@ Loyola Marymount University
 * [3.0 Project Proposal](#30-project-proposal)  
   * [3.1 Verbal Description](#31-verbal-description)  
   * [3.2 Justification](#32-justification)  
-* [4.0 Software Development Plan](#40-software-development-plan)  
+* [4.0 Software Development Plan](#40-software-development-plan)
+  * [4.1 Plan Introduction](#41-plan-introduction)
+  * [4.2 Project Resources](#42-project-resources)
+    * [4.2.1 Hardware Resources](#421-hardware-resources)
+    * [4.2.2 Software Resources](#422-software-resources)
+  * [4.3 Project Organization](#43-project-organization)
+  * [4.4 Project Schedule](#44-project-schedule)
+    * [4.4.1 PERT / GANTT Chart](#441-pert-\/-gantt-chart)
+    * [4.4.2 Task / Resource Table](#442-task-\/-resource-table)
 * [5.0 Requirements Document](#50-requirements-document)  
   * [5.1 Introduction](#51-introduction)  
   * [5.2 Functional Requirements](#52-functional-requirements)  
@@ -44,6 +52,15 @@ I have always had a bittersweet relationship with language: despite being in the
 
 # 4.0 Software Development Plan
 (Wk 9/11)
+
+## 4.1 Plan Introduction
+## 4.2 Project Resources
+### 4.2.1 Hardware Resources
+### 4.2.2 Software Resources
+## 4.3 Project Organization
+## 4.4 Project Schedule
+### 4.4.1 PERT / GANTT Chart
+### 4.4.2 Task / Resource Table
 
 # 5.0 Requirements Document
 (Wk 5/13)
