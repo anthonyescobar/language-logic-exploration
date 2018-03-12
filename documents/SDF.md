@@ -60,9 +60,9 @@ This Software Development Plan provides the details of the planned development f
 The Language Logic Conversion Application is designed to be my own exploration into natural language processing and apply it to a context with clear fundamentals. In order for this project to be rendered complete, documentation must be fully and thuroughly completed. Documentation includes but is not limited to a: project proposal, requirements specification, software development plan, a presentation, and status reports. In addition to documentation, the application must also be completed to a standard specified and agreed to by myself and Prof B.J.
 
 ### 4.1.1 Project Deliverables
-**Project Proposal:**
-**Requirements Specification:** 
-**Software Development Plan:**
+**Project Proposal:** A written declaration of project and its purpose. Inclludes a section for the verbal description of the project and a section for the justification of the project.  
+**Requirements Specification:** Specifies *exactly* what is being built. Includes high and low level designs and descriptions of components of the project.
+**Software Development Plan:** Describes the process that will be employed for completeion of the project. Includes information regarding when all components of a project (documentation and application) will be delivered.
 
 D# |Deliverable | Due
 :---:|:---:|:---:
@@ -78,13 +78,29 @@ D#09	| Written Status Reports or Quad Charts in SDF |	Wk 9/11/13/15
 
 ## 4.2 Project Resources
 
-
 ### 4.2.1 Hardware Resources
+No extra hardware besides my computer is required to utilize this application.
+
 ### 4.2.2 Software Resources
+1. Python 3.5+
+2. Natural Language Toolkit (NLTK)
+3. Numpy
+4. git
+5. Atom
+
 ## 4.3 Project Organization
+This project employes 3 major components
+1. **Sentence parsing and organization with NLTK:** Using NLTK to seperate and tag words in the given string. Then categorize the words into prepositional statements by looking for conditional indications.
+2. **Conversion to sybolic logic:** fFrom the modified output from NLTK, symbolize the prepositional statemts and use their location within the conditional indicators to figure out what side of the clause it is on. Create symbolic statement from this linked list of prepositional statements.
+3. **Output to a web user interface:** Create a simple web interface that an inexperienced user can use. May include error messages and hints for application use.
+
 ## 4.4 Project Schedule
+This section provides schedule information for the the *Language Logic Exploration* project.  
+TODO
 ### 4.4.1 PERT / GANTT Chart
+TODO
 ### 4.4.2 Task / Resource Table
+TODO
 
 # 5.0 Requirements Document
 (Wk 5/13)
