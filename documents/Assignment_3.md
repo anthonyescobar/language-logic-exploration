@@ -51,6 +51,15 @@ Because we don't know how IsRelativelyPrime works, the test would be black-box. 
 
 ## Problem 8.9
 
+Exhustive tests can be considered black-box because they don't necessarily need to know what is going on in the code.
+
 ## Problem 8.11
 
+1. Alice/Carmen = (5\*5)/2 = 12.5
+2. Alice/Bob = (5\*4)/2 = 10
+3. Bob/Carmen = (4\*5)/1 = 20
+The Average of these values is 14 which means there are 14 bugs to fix
+
 ## Problem 8.12
+
+The Lincoln estimate would be forced to divide by 0 if there are no bugs in common, causing an undefined result which is not a proper estimate of bugs. To get a proper lower bound, the tester can pretend that there was one bug in common between the testers.
