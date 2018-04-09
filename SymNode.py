@@ -56,6 +56,15 @@ class SymNode():
                 self.right.setSym()
                 self.setVal("TF")
                 self.sym = "⇒"
+            if "," in self.val:
+                self.setLeft(SymNode(self.val[1:self.val.index(",")]))
+                self.left.setSym()
+                self.setRight(SymNode(self.val[self.val.index(",")+1:]))
+                self.right.setSym()
+                self.setVal("TF")
+                self.sym = "⇒"
+
+        # _iff_
         if all(x in self.val for x in ["if",'and',"only","if"]):
             print("_iff_")
             # print(self.val.index("if"))
@@ -65,6 +74,15 @@ class SymNode():
             self.right.setSym()
             self.setVal("bc")
             self.sym = "⇔"
+
+        # _if_
+        if "if" in self.val:
+            self.setLeft(SymNode(self.val[self.val.index("if")+1:]))
+            self.left.setSym()
+            self.setRight(SymNode(self.val[:self.val.index("if")]))
+            self.right.setSym()
+            self.setVal("TF")
+            self.sym = "⇒"
 
     def expand(self):
         if "and" in self.val:

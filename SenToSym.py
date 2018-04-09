@@ -77,11 +77,26 @@ def theProcess2(arg):
     print(repr(t))
     print(t)
 
+def theProcess3(arg):
+    sentence = "Forneybots were found to malfumction if and only if they suffer water damage or overheard a logical paradox."
+    print(sentence)
+    tokens = nltk.word_tokenize(sentence)
+    print(tokens)
+    t = SymTree(SymNode(tokens[:len(tokens)-1]))
+    # print(t)
+    t.identify()
+    # print(t)
+    t.expand()
+    print(repr(t))
+    print(t)
+
 
 if __name__ == "__main__":
     # playingAround()
-    print("---------------------")
+    print("\n---------------------")
     # first()
     theProcess1("")
-    print("---------------------")
+    print("\n---------------------")
     theProcess2("")
+    print("\n---------------------")
+    theProcess3("")
