@@ -61,6 +61,7 @@ def theProcess1(arg):
     t = SymTree(SymNode(tokens))
     # print(t)
     t.identify()
+    print(repr(t))
     print(t)
 
 def theProcess2(arg):
