@@ -55,14 +55,14 @@ class SymNode():
                 self.setRight(SymNode(self.val[self.val.index("then")+1:]))
                 self.right.setSym()
                 self.setVal("TF")
-                self.sym = "⇒"
+                self.sym = " ⇒ "
             if "," in self.val:
                 self.setLeft(SymNode(self.val[1:self.val.index(",")]))
                 self.left.setSym()
                 self.setRight(SymNode(self.val[self.val.index(",")+1:]))
                 self.right.setSym()
                 self.setVal("TF")
-                self.sym = "⇒"
+                self.sym = " ⇒ "
 
         # _iff_
         if all(x in self.val for x in ["if",'and',"only","if"]):
@@ -73,7 +73,7 @@ class SymNode():
             self.setRight(SymNode(self.val[self.val.index("if")+4:]))
             self.right.setSym()
             self.setVal("bc")
-            self.sym = "⇔"
+            self.sym = " ⇔ "
 
         # _if_
         if "if" in self.val:
@@ -82,7 +82,7 @@ class SymNode():
             self.setRight(SymNode(self.val[:self.val.index("if")]))
             self.right.setSym()
             self.setVal("TF")
-            self.sym = "⇒"
+            self.sym = " ⇒ "
 
     def expand(self):
         if "and" in self.val:
@@ -92,7 +92,7 @@ class SymNode():
             self.setRight(SymNode(self.val[self.val.index("and")+1:]))
             self.right.setSym()
             self.setVal("AND")
-            self.sym = "∧"
+            self.sym = " ∧ "
 
             self.left.expand()
             self.right.expand()
@@ -103,7 +103,7 @@ class SymNode():
             self.setRight(SymNode(self.val[self.val.index("or")+1:]))
             self.right.setSym()
             self.setVal("OR")
-            self.sym = "∨"
+            self.sym = " ∨ "
 
             self.left.expand()
             self.right.expand()
@@ -124,7 +124,7 @@ class SymNode():
 
     def __str__(self):
         if self.left != None and self.right != None:
-            return " " + str(self.left) + " " + str(self.sym) + " " + str(self.right)
+            return "" + str(self.left) + "" + str(self.sym) + "" + str(self.right)
         return self.sym
 
     def __repr__(self):

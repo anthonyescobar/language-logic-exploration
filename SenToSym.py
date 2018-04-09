@@ -78,7 +78,7 @@ def theProcess2(arg):
     print(t)
 
 def theProcess3(arg):
-    sentence = "Forneybots were found to malfumction if and only if they suffer water damage or overheard a logical paradox."
+    sentence = "I will get an A if I have time to study."
     print(sentence)
     tokens = nltk.word_tokenize(sentence)
     print(tokens)
