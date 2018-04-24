@@ -92,7 +92,7 @@ def theProcess3(arg):
 
 
 if __name__ == "__main__":
-    # playingAround()
+    playingAround()
     print("\n---------------------")
     # first()
     theProcess1("")
