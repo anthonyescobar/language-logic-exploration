@@ -107,6 +107,7 @@ class SymNode():
 
             self.left.expand()
             self.right.expand()
+            
         # else:
         #     print("")
 

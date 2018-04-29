@@ -53,7 +53,7 @@ def first():
     sttne = nltk.chunk.ne_chunk(stt)
     print(sttne)
 
-def theProcess1(arg):
+def theProcess1():
     sentence = "If I have the time to study then I will get an A."
     print(sentence)
     tokens = nltk.word_tokenize(sentence)
@@ -64,7 +64,7 @@ def theProcess1(arg):
     print(repr(t))
     print(t)
 
-def theProcess2(arg):
+def theProcess2():
     sentence = "Forneybots were found to malfumction if and only if they suffer water damage or overheard a logical paradox."
     print(sentence)
     tokens = nltk.word_tokenize(sentence)
@@ -77,7 +77,7 @@ def theProcess2(arg):
     print(repr(t))
     print(t)
 
-def theProcess3(arg):
+def theProcess3():
     sentence = "I will get an A if I have time to study."
     print(sentence)
     tokens = nltk.word_tokenize(sentence)
