@@ -14,9 +14,18 @@ This project is an exploration into the compatibility between language and compu
 
 [More Information on installing NLTK+Numpy](https://www.nltk.org/install.html)
  
-**Steps**
-
 **Documentation**
+
+```python3 lltk.py [-options] [sentence]```
+
+```
+options:
+ -r	Repeat Input
+	-s	Isolate Subject
+	-c	Show Conditional Type
+	-d	Demo
+ ```
+```sentence```: Can only be recognized if it includes some sort of if-then or if-and-only-if conditional statement. ex. If I have the time to study then I will get an A.
 
 **Citations:**
 
