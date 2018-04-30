@@ -18,3 +18,4 @@ if __name__ == "__main__":
         tk.theProcess2()
     else:
         print(sys.argv[1])
+        tk.run(sys.argv[1])

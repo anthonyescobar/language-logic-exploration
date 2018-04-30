@@ -12,6 +12,29 @@ from SymTree import SymTree
 from SymNode import SymNode
 import nltk
 
+def run(s):
+    # sentance = arg
+    # print(sentence)
+    # tokens = nltk.word_tokenize(s)
+    # print(tokens)
+    t = SymTree(SymNode(tokens[:len(nltk.word_tokenize(s))-1]))
+    # print(t)
+    t.identify()
+    print(repr(t))
+    print(t)
+
+if __name__ == "__main__":
+    playingAround()
+    print("\n---------------------")
+    # first()
+    theProcess1("")
+    print("\n---------------------")
+    theProcess2("")
+    print("\n---------------------")
+    theProcess3("")
+
+
+# TESTING FUNCTIONS
 def playingAround():
     print("Testing the NLTK functions:\n")
     sentence = """At eight o'clock on Thursday morning Arthur didn't feel very good."""
@@ -53,7 +76,7 @@ def first():
     sttne = nltk.chunk.ne_chunk(stt)
     print(sttne)
 
-def theProcess1():
+def theProcess1(arg):
     sentence = "If I have the time to study then I will get an A."
     print(sentence)
     tokens = nltk.word_tokenize(sentence)
@@ -89,14 +112,3 @@ def theProcess3():
     t.expand()
     print(repr(t))
     print(t)
-
-
-if __name__ == "__main__":
-    playingAround()
-    print("\n---------------------")
-    # first()
-    theProcess1("")
-    print("\n---------------------")
-    theProcess2("")
-    print("\n---------------------")
-    theProcess3("")
