@@ -12,60 +12,28 @@ from SymTree import SymTree
 from SymNode import SymNode
 import nltk
 
-def run(s):
-    # sentance = arg
-    # print(sentence)
+def run(s,options=""):
     # tokens = nltk.word_tokenize(s)
-    # print(tokens)
-    t = SymTree(SymNode(tokens[:len(nltk.word_tokenize(s))-1]))
-    # print(t)
+    # tagged = nltk.pos_tag(tokens)
+    t = SymTree(SymNode(nltk.word_tokenize(s)[:len(nltk.word_tokenize(s))-1]))
+
+    if "r" in options:
+        # print("REPEAT INPUT")
+        print("Input: " + s)
+    if "s" in options:
+        # print("ISO SUBJECT")
+        t.isoSubject()
+        for subj in t.getSubj():
+            print("Subject: " + subj)
     t.identify()
+    t.expand()
     print(repr(t))
+    if "c" in options:
+        # print("SHOW CONDITIONAL ID")
+        print("Type: " + t.getCond())
     print(t)
 
-if __name__ == "__main__":
-    playingAround()
-    print("\n---------------------")
-    # first()
-    theProcess1("")
-    print("\n---------------------")
-    theProcess2("")
-    print("\n---------------------")
-    theProcess3("")
-
-
-# TESTING FUNCTIONS
-def playingAround():
-    print("Testing the NLTK functions:\n")
-    sentence = """At eight o'clock on Thursday morning Arthur didn't feel very good."""
-    print(sentence)
-
-    print("\nSentence Tokenized")
-    tokens = nltk.word_tokenize(sentence)
-    print(tokens)
-
-    print("\nTokens Tagged")
-    tagged = nltk.pos_tag(tokens)
-    print(tagged)
-
-    print("\nIdentify named entities")
-    entities = nltk.chunk.ne_chunk(tagged)
-    print(entities)
-
-    print("\nMultipule Sentences now")
-    sentences = '''Good muffins cost $3.88\nin New York.  Please buy me two of them.\n\nThanks.'''
-    print(sentences)
-
-    print("\nUse sent_tokenize(s)")
-    sentTokens = nltk.sent_tokenize(sentences)
-    print(sentTokens)
-
-    print("Use word_tokenize(s) on each sentance in the array")
-    arrTokens = []
-    for s in sentTokens:
-        arrTokens.append(nltk.word_tokenize(s))
-    print(arrTokens)
-
+######################## TESTING FUNCTIONS ####################################
 def first():
     s = 'I will get an A when I have the time to study.'
     print(s)
@@ -112,3 +80,44 @@ def theProcess3():
     t.expand()
     print(repr(t))
     print(t)
+
+def playingAround():
+    print("Testing the NLTK functions:\n")
+    sentence = """At eight o'clock on Thursday morning Arthur didn't feel very good."""
+    print(sentence)
+
+    print("\nSentence Tokenized")
+    tokens = nltk.word_tokenize(sentence)
+    print(tokens)
+
+    print("\nTokens Tagged")
+    tagged = nltk.pos_tag(tokens)
+    print(tagged)
+
+    print("\nIdentify named entities")
+    entities = nltk.chunk.ne_chunk(tagged)
+    print(entities)
+
+    print("\nMultipule Sentences now")
+    sentences = '''Good muffins cost $3.88\nin New York.  Please buy me two of them.\n\nThanks.'''
+    print(sentences)
+
+    print("\nUse sent_tokenize(s)")
+    sentTokens = nltk.sent_tokenize(sentences)
+    print(sentTokens)
+
+    print("Use word_tokenize(s) on each sentance in the array")
+    arrTokens = []
+    for s in sentTokens:
+        arrTokens.append(nltk.word_tokenize(s))
+    print(arrTokens)
+
+    if __name__ == "__main__":
+        playingAround()
+        # print("\n---------------------")
+        # first()
+        # theProcess1("")
+        # print("\n---------------------")
+        # theProcess2("")
+        # print("\n---------------------")
+        # theProcess3("")

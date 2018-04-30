@@ -1,7 +1,7 @@
 '''
 Anthony Escobar
 
-SenToSym.py
+lltk.py
 
  A Simple tool to convert a sentance into it's symbolic logic.
 
@@ -12,10 +12,19 @@ import nltk
 import SenToSym as tk
 import sys
 
+def usage():
+    print("USAGE HERE")
+
 if __name__ == "__main__":
     if (len(sys.argv) == 1):
-        # Print Usage
-        tk.theProcess2()
+        usage()
+        # tk.theProcess2()
     else:
-        print(sys.argv[1])
-        tk.run(sys.argv[1])
+        if sys.argv[1][0] == "-":
+            sentence = sys.argv[2]
+            options = sys.argv[1]
+        else:
+            sentence = sys.argv[1]
+            options = ""
+        # print("\n" + sentence)
+        tk.run(sentence,options)
