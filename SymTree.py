@@ -37,6 +37,9 @@ class SymTree():
     def getCond(self):
         return self.cond
 
+    def poss(self):
+        return "if" in self.root.val
+
     def __iter__(self):
         if self.root != None:
             return iter(self.root)

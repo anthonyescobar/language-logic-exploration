@@ -13,15 +13,16 @@ from SymNode import SymNode
 import nltk
 
 def run(s,options=""):
-    # tokens = nltk.word_tokenize(s)
-    # tagged = nltk.pos_tag(tokens)
+    if "d" in options:
+        demo()
+        return
     t = SymTree(SymNode(nltk.word_tokenize(s)[:len(nltk.word_tokenize(s))-1]))
-
+    if not t.poss():
+        print("The sentence given cannot be identified.")
+        return
     if "r" in options:
-        # print("REPEAT INPUT")
         print("Input: " + s)
     if "s" in options:
-        # print("ISO SUBJECT")
         t.isoSubject()
         for subj in t.getSubj():
             print("Subject: " + subj)
@@ -29,7 +30,6 @@ def run(s,options=""):
     t.expand()
     print(repr(t))
     if "c" in options:
-        # print("SHOW CONDITIONAL ID")
         print("Type: " + t.getCond())
     print(t)
 
@@ -44,28 +44,34 @@ def first():
     sttne = nltk.chunk.ne_chunk(stt)
     print(sttne)
 
-def theProcess1(arg):
+def theProcess1():
     sentence = "If I have the time to study then I will get an A."
-    print(sentence)
+    print("Input: " + sentence)
     tokens = nltk.word_tokenize(sentence)
-    print(tokens)
     t = SymTree(SymNode(tokens[:len(tokens)-1]))
     # print(t)
+    t.isoSubject()
+    for subj in t.getSubj():
+        print("Subject: " + subj)
     t.identify()
+    t.expand()
     print(repr(t))
+    print("Type: " + t.getCond())
     print(t)
 
 def theProcess2():
     sentence = "Forneybots were found to malfumction if and only if they suffer water damage or overheard a logical paradox."
-    print(sentence)
+    print("Input: " + sentence)
     tokens = nltk.word_tokenize(sentence)
-    print(tokens)
     t = SymTree(SymNode(tokens[:len(tokens)-1]))
     # print(t)
+    t.isoSubject()
+    for subj in t.getSubj():
+        print("Subject: " + subj)
     t.identify()
-    # print(t)
     t.expand()
     print(repr(t))
+    print("Type: " + t.getCond())
     print(t)
 
 def theProcess3():
@@ -111,6 +117,11 @@ def playingAround():
     for s in sentTokens:
         arrTokens.append(nltk.word_tokenize(s))
     print(arrTokens)
+
+def demo():
+    theProcess1()
+    print("")
+    theProcess2()
 
     if __name__ == "__main__":
         playingAround()

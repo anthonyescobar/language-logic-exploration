@@ -83,7 +83,7 @@ class SymNode():
                 self.setVal("CON")
 
         # _iff_
-        if all(x in self.val for x in ["if",'and',"only","if"]):
+        elif all(x in self.val for x in ["if",'and',"only","if"]):
             # print("_iff_")
             # print(self.val.index("if"))
             self.setLeft(SymNode(self.val[:self.val.index("if")]))
@@ -94,13 +94,17 @@ class SymNode():
             self.sym = self.sbls[self.val]
 
         # _if_
-        if "if" in self.val:
+        elif "if" in self.val:
             self.setLeft(SymNode(self.val[self.val.index("if")+1:]))
             self.left.setSym()
             self.setRight(SymNode(self.val[:self.val.index("if")]))
             self.right.setSym()
             self.setVal("CON")
             self.sym = self.sbls[self.val]
+
+        else:
+            self.setVal("ERROR")
+            return
 
     def expand(self):
         if "n't" in self.val:
