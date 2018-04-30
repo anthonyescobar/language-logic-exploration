@@ -16,7 +16,7 @@ This project is an exploration into the compatibility between language and compu
  
 **Documentation**
 
-```python3 lltk.py [-options] [sentence]```
+```$ python3 lltk.py [-options] [sentence]```
 
 ```
 options:
