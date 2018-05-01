@@ -54,7 +54,6 @@ class SymNode():
 
         # if-then
         if self.val[0] == "If":
-            # print("if_then")
             if "then" in self.val:
                 self.setLeft(SymNode(self.val[1:self.val.index("then")]))
                 self.left.setSym()

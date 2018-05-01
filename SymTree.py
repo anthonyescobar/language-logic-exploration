@@ -38,7 +38,7 @@ class SymTree():
         return self.cond
 
     def poss(self):
-        return "if" in self.root.val
+        return "if" in self.root.val or "If" in self.root.val
 
     def __iter__(self):
         if self.root != None:
