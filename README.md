@@ -20,7 +20,7 @@ This project is an exploration into the compatibility between language and compu
 
 ```
 options:
- -r	Repeat Input
+ 	-r	Repeat Input
 	-s	Isolate Subject
 	-c	Show Conditional Type
 	-d	Demo
