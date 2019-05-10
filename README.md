@@ -6,10 +6,10 @@ This project is an exploration into the compatibility between language and compu
 **Requirements:**
 1. Python 2.7, 3.4, or 3.5
 2. NLTK (Natural Language ToolKit)
- * Mac/Unix: `sudo pip install -U nltk`
+ * Mac/Unix: `sudo pip3 install -U nltk`
  * Windows: [http://pypi.python.org/pypi/nltk](http://pypi.python.org/pypi/nltk)
 3. NumPy
- * Mac/Unix: `sudo pip install -U numpy`
+ * Mac/Unix: `sudo pip3 install -U numpy`
  * Windows: [http://sourceforge.net/projects/numpy/files/NumPy/](http://sourceforge.net/projects/numpy/files/NumPy/)
 
 [More Information on installing NLTK+Numpy](https://www.nltk.org/install.html)
